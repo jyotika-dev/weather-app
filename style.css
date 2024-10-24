@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0, 0, 0, 0.92);
+}
+body{
+    background-image: url(img/bg1.png);
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #53e84f, #ef8f41);
+    color: #fff;
+    margin: 50px auto 50px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: rgba(0, 0, 0, 0.92);
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Baskerville Old Face";
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%  ;
+    cursor: pointer;
+}
+.search button img{
+    width: 20px;
+    height: 20px;
+
+}
+.weather img{
+    width: 100px;
+    height: 100px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-right: 20px;
+}
+.col img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 2px;
+}
+.humidity, .wind{
+    font-size: 16px;
+    margin-top: -5px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
